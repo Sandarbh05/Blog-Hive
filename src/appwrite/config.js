@@ -78,7 +78,7 @@ export class Service{
 
     // Delete by Appwrite row id ($id):
     async deletePost(id){
-         if (!id) {
+        if (!id) {
             console.warn('deletePost called without id');
             return false;
         }

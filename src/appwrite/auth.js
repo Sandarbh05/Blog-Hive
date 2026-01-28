@@ -61,7 +61,7 @@ export class AuthService{
             return user;
         }
         catch(error){
-            console.log("Appwrite Error: chutiya", error);
+            console.log("Appwrite Error:", error);
             return null;
         }
     }

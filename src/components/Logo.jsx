@@ -7,8 +7,7 @@ function Logo({width = "120px", className = "" }) {
       src="/BlogHiveLogo.png"
       alt="BlogHive Logo"
       style={{ width }}
-      className={className}
-      className="rounded-3xl border-2 border-amber-400"
+      className={`rounded-3xl border-2 border-amber-400 ${className}`}
       />
     </div>
   )

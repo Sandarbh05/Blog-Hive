@@ -15,70 +15,6 @@ import EditPost from './pages/EditPost.jsx'
 import Post from './pages/Post.jsx'
 import AllPosts from './pages/AllPosts.jsx'
 
-// const router=createBrowserRouter([
-//   {
-//     path: '/',
-//     element: <App />,
-//     children: [
-//       {
-//         path: '/',
-//         element: <Home />
-//       },
-//       {
-//         path: '/login',
-//         element: (
-//           <AuthLayout authentication={false}>
-//             <Login />
-//           </AuthLayout>
-//         )
-//         // element: <Login />
-//       },
-//       {
-//         path: '/signup',
-//         element: (
-//           <AuthLayout authentication={false}>
-//             <Signup />
-//           </AuthLayout>
-//         )
-//         // element: <Signup />
-//       },
-//       {
-//         path: '/all-posts',
-//         element: (
-//           <AuthLayout authentication={false}>
-//             {" "}
-//             <AllPosts />
-//           </AuthLayout>
-//         )
-//         // element: <AllPosts />
-//       },
-//       {
-//         path: '/add-post',
-//         element: (
-//           <AuthLayout authentication={false}>
-//             {" "}
-//             <AddPost />
-//           </AuthLayout>
-//         )
-//         // element: <AddPost />
-//       },
-//       {
-//         path: '/edit-post/:slug',
-//         element: (
-//           <AuthLayout authentication={false}>
-//             {" "}
-//             <EditPost />
-//           </AuthLayout>
-//         )
-//         // element: <EditPost />
-//       },
-//       {
-//         path: '/post/:slug',
-//         element: <Post />,
-//       },
-//     ]
-//   }
-// ])
 
 const router = createBrowserRouter([
   {
@@ -138,7 +74,7 @@ const router = createBrowserRouter([
 ]);
 
 
-//For debugging run this : 
+// For debugging run this : 
 // const router = createBrowserRouter([
 //   { path: '/', element: <div>root ok</div> }
 // ]);
