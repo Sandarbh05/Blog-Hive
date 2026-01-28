@@ -8,7 +8,7 @@ import Signup from "./Signup.jsx"
 import Login from './Login.jsx'
 import Button from './Button.jsx'
 import PostForm from "./post-form/PostForm.jsx"
-import PostCard from "./Postcard.jsx"
+import PostCard from "./PostCard.jsx"
 import AuthLayout from './AuthLayout.jsx'
 import Input from './Input.jsx'
 import Select from './Select.jsx'
